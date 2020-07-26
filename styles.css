@@ -1,0 +1,39 @@
+/* Entire Page */
+body {
+    background-color: #3282b8;
+}
+
+/* Header Text */
+h1 {
+    text-align: center;
+    color: #bbe1fa;
+    font-family: 'Rowdies', cursive;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Button Container */
+.btn-container { 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Button */
+.btn {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    margin-top: 2%;
+}
+
+.btn-title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
