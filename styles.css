@@ -14,14 +14,13 @@ h1 {
 
 /* Container */
 .container {
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
 /* Button Container */
 .btn-container { 
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -31,9 +30,13 @@ h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
     margin-top: 2%;
+
+    /* Makes all flex items equal width */
+    flex: 1 1 0px;
 }
 
 .btn-title {
     margin-top: 0;
     margin-bottom: 0;
+    color: #c8e9ff;
 }
